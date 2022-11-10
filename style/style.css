@@ -8,9 +8,11 @@ h1{
     color: orange;
 }
 .peter-parker{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
     display: flex;
     margin-bottom: 150px;
-    
+
 }
 .half-width{
     width: 50%;
@@ -29,5 +31,7 @@ h1{
 }
 .drem-big{
     display: flex;
-    background-image: url(images);
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
