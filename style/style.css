@@ -9,13 +9,25 @@ h1{
 }
 .peter-parker{
     display: flex;
+    margin-bottom: 150px;
+    
 }
 .half-width{
     width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
 }
 .button{
     text-decoration: none;
     color: white;
-    background-image:linear-gradient(orange tomato);
+    font-weight: 700;
+    background-image:linear-gradient(lightsalmon,tomato);
     border-radius: 10px;
+    padding: 10px 40px;
+}
+.drem-big{
+    display: flex;
+    background-image: url(images);
 }
